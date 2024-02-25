@@ -1,0 +1,673 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #bc9000;
+    --second-color: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+    --bb-color:  #001F3F;
+}
+
+img{
+    width: 100%;
+   
+}
+
+body{
+    color: var(--second-color);  
+}
+
+header{
+  
+}
+
+header .top{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1000px;
+    animation: cycleBackground 20s steps(1) infinite;
+}
+
+@keyframes cycleBackground {
+    0%{
+      background-image: url('Images/ahaz.jpg'); 
+      background-position: right;
+      opacity: 1;
+    }
+    25%{
+      background-image: url('Images/reales.jpeg'); 
+      background-position: right;
+      opacity: 8;
+    }
+    50%{
+      background-image: url('Images/award.jpg'); 
+      background-position: 90% 64%;
+      opacity: 1;
+    }
+    75%{
+        background-image: url('Images/forexxi.jpeg'); 
+        background-position: right;
+        opacity: 1;
+    }
+    75%{
+        background-image: url('Images/ceo.jpg'); 
+        background-position: right;
+        opacity: 1;
+      }
+}
+
+
+
+.top::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 40, 40, 0.64);
+    pointer-events: none;
+}
+
+.top .untouch{
+    position: absolute;
+}
+
+header .topone{
+    display: flex;
+    padding: 40px;
+    margin-right: 300px;
+}
+
+header .contact{
+    
+}
+
+header .num{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    margin-left: -100px;  
+    margin-top: 70px;
+    visibility: hidden;
+}
+
+header .contact:hover .num{
+    visibility: visible;
+}
+
+
+header ul{
+    display: flex;
+    margin-left: 450px; 
+    font-size: large;
+   
+}
+
+header ul li{
+    margin-left: 50px;  
+    display: flex;
+}
+
+
+
+header ul li a{
+    display: flex;
+    color: var(--bg--color);
+}
+
+
+header ul li a span{
+    color: var(--main-color);
+}
+
+header ul li a:hover{
+    color: var(--main-color);
+}
+
+header .logo{
+    margin-left: 100px;
+    font-size: 25px;
+    display: flex;
+}
+
+header .logo i{
+    margin-left: -8px;
+    font-size: 27px;
+    display: flex;
+}
+
+header .logo a{
+    margin-left: 20px;
+    color: var(--main-color);
+}
+
+header .toptwo{
+    padding: 230px;
+    margin-left: 300px;
+}
+
+header .toptwo p{
+    color: var(--text-color);
+    font-size: 103px;
+    font-weight: bold;
+    color: var(--bg--color);
+}
+
+header .toptwo span{
+    color: var(--bg--color);
+}
+
+.rectangle{
+    display: flex;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 300px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05)   
+}
+
+.rectone{
+    width: 700px;
+    height: 400px;
+    background-color: var(--main-color);
+}
+
+.rectonediv{
+    padding: 65px;
+}
+
+.rectonediv .sentence{
+    line-height: 23px;
+}
+
+.rectonediv .welcome{
+    font-weight: bolder;
+    font-size: 23px;
+    color: var(--text-color);
+}
+
+.rectonediv span{
+    font-weight: bolder;
+    font-size: 46px;
+    color: var(--bg--color);
+    
+}
+
+.rectonediv button{
+     width: 200px;
+     height: 55px;
+     font-size: 17px;
+     text-decoration: none;
+     color: var(--main-color);
+     background-color: var(--bb-color);
+     margin-top: 20px;
+     border: 1px solid var(--text-color);
+    }
+
+.rectonediv button:hover{
+    border: 2px solid gray
+    }
+
+.rectangle .appear div{
+    color: #001F0F;
+}
+
+.rectangle .appear{
+    background-color: var(--bg-color);
+    width: 300px;
+    height: 150px;
+    box-shadow: 5px 5px 10px #888888;;
+}
+
+.rectangle .appear span:hover{
+    background-color: grey;
+    color: red;
+}
+
+
+.rectangle .appear a{
+    color: var(--main-color);
+}
+
+.recttwo{
+    width: 700px;
+    height: 400px;
+    background-color: var(--bg--color);
+    display: flex;
+}
+
+.recttwo .box{
+    width: 350px;
+    height: 200px;
+    border: 1px solid  #e0e0e0;
+    background-color: var(--bg-color);
+}
+.recttwo .box:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1)  ;
+   
+}
+
+.recttwo .boxin{
+    padding: 50px;
+    color: var(--bb-color);
+}
+.recttwo .boxin p{
+    font-weight: bolder;
+    font-size: 50px;
+   
+}
+
+
+.recttwo span{
+    display: flex;
+}
+
+.mid{
+    margin-left: -10px;
+
+}
+.mid img{
+    width: 350px;
+    height: 230px;
+}
+
+.mid p{
+    color: var(--text-color);
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.mid span{
+    color: var(--text-color);
+    
+
+}
+
+.mid .service{
+    padding: 100px;
+    padding-left: 300px;
+    padding-top: 500px;
+
+
+}
+.mid .service{
+    padding: 380;
+    margin-top: -50px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 53px;
+}
+.mid .service span{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 43px;
+}
+
+.mid .firstrowimgs{
+    display: flex;
+    margin-left: -10px;
+}
+
+.mid .secondrowimgs{
+    display: flex;
+    margin-left: -10px;
+}
+
+.firstrowimgs{
+    padding-left: 300px;
+    margin-top: -70px;
+}
+
+.firstrowimgs .picbox{  
+    border: 2px solid  #e0e0e0;
+    margin-left: 10px;
+}
+
+.firstrowimgs .picboxtext{  
+    padding: 20px;
+    justify-content: center;
+    line-height: 30px;
+}
+    
+
+.secondrowimgs{
+    padding-left: 300px;
+    margin-top: 50px;
+}
+
+
+.secondrowimgs .picbox{  
+    border: 2px solid  #e0e0e0;
+    margin-left: 10px;    
+}
+
+.secondrowimgs .picboxtext{ 
+    padding: 20px;
+    justify-content: center; 
+    line-height: 30px;
+}
+.picbox:hover{  
+    box-shadow:  0px 10px 5px rgba(0, 0, 0, 0.13) ;
+}
+
+.fullrectangle{
+    padding: 100px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.fullrectangle .left{
+    background: url(Images/ahaz.jpg);
+    width:100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.fullrectangle .right{
+    background: url(Images/ahavay.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.fullrectangle .left::before{
+    content: "";
+    position: absolute;
+    width: 44.68%;
+    height: 63.59%;
+    background-color: rgba(40, 40, 40, 0.64);
+    pointer-events: none;
+}
+
+.fullrectangle .right::before{
+    content: "";
+    position: absolute;
+    width: 44.68%;
+    height: 63.59%;
+    background-color: rgba(205, 133, 63, 0.8); 
+    pointer-events: none;
+}
+
+.left .lefttext{
+    padding: 160px;
+    margin-top: -50px;
+    position: absolute;
+}
+.left .lefttext button{
+    margin-top: 40px;
+    border: none;
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    text-decoration: none;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+}
+
+.left .lefttext button:hover{
+    color: var(--text-color);
+    background-color: #CD853F;
+    transition: 0.3s;
+}
+
+.left p{
+    font-weight: bolder;
+    color: var(--main-color);
+    font-size: 20px;
+}
+.left span{
+    font-weight: bolder;
+    font-size: 50px;
+    color: var(--bg-color);
+}
+
+.left .popup{
+    background-color: var(--bg-color);
+    border: solid 1px black; 
+    width: 300px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.left .popreach{
+    position: absolute;
+
+}
+
+.left .close{
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+    margin-left: 260px;
+    margin-bottom: 100px;
+}
+
+.left .close:hover{
+    background-color: red;
+}
+
+.left h4{
+    color: black;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+
+.left .popul{
+    border: solid 1px black;
+    color: black;
+    box-shadow: 4px 4px 8px rgb(255, 200, 51);;
+}
+
+.left ul{
+    line-height: 40px;
+    color: black;
+}
+
+
+.right .righttext{
+    padding: 160px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.right .righttext .our{
+    font-weight: bolder;
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+.right .righttext .aha{
+    color: var(--text-color);
+}
+
+.right ul{
+    font-size: 23px;
+    line-height: 60px;
+    color: var(--bb-color);
+}
+
+.right ul i{
+    margin-left: px;
+}
+
+.right .icons{
+  
+}
+
+.right .icontext{
+    display: flex;
+    color: var(--bb-color);
+}
+
+.right .textico{
+    margin-left: 15px;   
+}
+
+.sponsor-logos{
+    margin-top: -105px;
+    padding: 100px;
+}
+
+.sponsor-logos img{
+    height: 240px;
+    width: 260px;
+    margin-right: 60px;
+}
+
+.sponsor-logos p{
+    font-weight: bolder;
+    font-size: 40px;
+    justify-content: center;
+    color: var(--text-color);
+    margin-left: 700px;
+    margin-bottom: 60px;
+}
+
+.sponsor-logos span{
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 721px;
+}
+
+
+
+.down{
+    background-color: var(--text-color);
+    margin-top: 1px;
+}
+
+.down .ics{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.ics a{
+    color:  #e8e8e8;
+    margin-left: 20px;
+}
+
+.facebook:hover{
+    color: #1877F2;
+    transition: 0.3s; 
+}
+
+.instagram:hover{
+    color: #C13584;
+    transition: 0.3s;
+}
+
+.twitter:hover{
+    color:  #1DA1F2;
+    transition: 0.3s;
+    
+}
+
+.google:hover{
+    color:  #34A853 ;
+    transition: 0.3s;
+}
+
+.in:hover{
+    color: #0077B5;
+    transition: 0.3s;
+}
+
+.down .flexx{
+    justify-content: center;
+    margin-left: -300px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.down .flexx p{
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+
+.down .flexx div{
+    margin-left: 300px;
+    margin-bottom:50px;
+}
+
+.down ul{
+    padding-top: 35px;
+    line-height: 30px;
+}
+
+footer{
+    height: 60px;
+    color: var(--bg-color);
+    background-color: #001F0F;
+    border: 1px solid grey;
+}
+
+footer .foot{
+    display: flex;
+    padding: 20px;
+    padding-left: 180px;
+}
+
+footer .content{
+    display: flex;
+}
+
+footer p{
+    padding-left: 100px;
+}
+
+footer .copy{
+    font-size: 13.2px;
+}
+
+footer span{
+    font-size: 11.3px;
+    font-weight: lighter;
+    color: #e9e9e9e1;
+}
+
+.foot .jkorm{
+    color: #e9e9e9e1;
+    font-size: 13px;
+    padding-left: 430px;
+    
+}
+
+.foot .jcon{
+    padding-left: 20px;  
+}
+.foot .jcon a{
+    color: var(--main-color); 
+    font-size: large; 
+    padding-bottom: 0%
+}
+.foot .in:hover{
+    color:  #0077B5;
+
+}
+footer div{
+  font-size: 22px;
+}
+
+
+@media (max-width: 1350px) {
+    .mid{
+        margin-left: -300px;
+    }
+}
+
+
+
