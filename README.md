@@ -7,7 +7,7 @@ Ahava Company, spearheaded by a visionary entrepreneur, is dedicated to Christia
 # Preview the Front-End Page
 Explore our visually appealing and user-friendly front-end page to get a feel for the Ahava Company brand. The interface is designed to provide a seamless and engaging experience for visitors. Navigate through the various sections to discover more about our products, services, and the story behind Ahava Company.
 
-[Insert screenshot or link to the front-end page here]
+http://127.0.0.1:5500/Home/Ahava.html
 
 # Features
 Modern Design: The front-end page boasts a contemporary and aesthetically pleasing design, reflecting the forward-thinking nature of Ahava Company.
